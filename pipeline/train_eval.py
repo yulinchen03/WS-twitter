@@ -287,10 +287,10 @@ class ModelTrainer:
             })
             print("-" * 55)
 
-        summary_df = pd.DataFrame(results_for_csv).sort_values(by='Test F1-Macro', ascending=False)
+        summary_df = pd.DataFrame(results_for_csv).sort_values(by='Test Accuracy', ascending=False)
         print("\n\n========== FINAL MODEL PERFORMANCE SUMMARY ==========")
         print(summary_df)
-        csv_path = os.path.join(self.output_dir, 'model_performance_summary.csv')
+        csv_path = os.path.join(self.output_dir, 'performance_summary.csv')
         summary_df.to_csv(csv_path, index=False)
         print(f"\nFinal summary saved to: {csv_path}")
         print("-" * 30)

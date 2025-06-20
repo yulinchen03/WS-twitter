@@ -1,6 +1,0 @@
-Model Name,Test Accuracy,F1 Macro Score,File Path
-Logistic Regression,0.4494706448508181,0.2844260576825861,../data/output/models/logistic_regression.joblib
-Random Forest,0.45332050048123196,0.32035929939156194,../data/output/models/random_forest.joblib
-XGBoost,0.48315688161693937,0.32808878042649386,../data/output/models/xgboost.joblib
-SVM,0.4764196342637151,0.35354093401602604,../data/output/models/svm.joblib
-MLP,0.47256977863330124,0.35450346752162093,../data/output/models/mlp.joblib
