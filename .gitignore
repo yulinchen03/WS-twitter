@@ -1,2 +1,6 @@
 .idea
-data/
+data/raw/*
+data/extracted/*
+data/processed/*
+data/output/*
+data/GloVe/*
