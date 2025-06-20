@@ -2,5 +2,5 @@
 data/raw/*
 data/extracted/*
 data/processed/*
-data/output/*
+data/output/models
 data/GloVe/*
