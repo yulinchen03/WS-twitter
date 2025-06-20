@@ -1,0 +1,11 @@
+pandas
+jupyter
+notebook
+scikit-learn
+langdetect
+spacy
+xgboost
+matplotlib
+tensorflow
+tqdm
+nltk
